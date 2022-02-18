@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+html {
+  background-color: #242526;
+}
+.app {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 80vw;
+  }
+}
+@media (max-width: 400px) {
+  .app {
+    width: 95vw;
+  }
+}

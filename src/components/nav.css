@@ -1,0 +1,35 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+  background-color: rgb(27, 27, 27);
+  border-bottom: 1px solid rgb(139, 139, 139);
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  z-index: 900000;
+}
+.logo {
+  text-decoration: none;
+  color: #ccc;
+}
+.navsearch {
+  padding-left: 23px;
+  height: 30px;
+  border-radius: 5px;
+  width: 200px;
+  background: #ccc;
+}
+.search {
+  position: relative;
+}
+.searchicon {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 7px;
+  display: block;
+}

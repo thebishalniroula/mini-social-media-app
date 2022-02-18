@@ -1,0 +1,75 @@
+.blank {
+  height: 350px;
+  background-color: #18191a;
+  position: absolute;
+  left: 20vw;
+  right: 20vw;
+
+  top: 8vh;
+  z-index: 1;
+  box-shadow: 0px -31px 82px -25px rgba(0, 0, 0, 0.71) inset;
+}
+
+.userDetails h2 {
+  color: rgb(202, 202, 202);
+}
+.login {
+  color: rgb(158, 156, 156);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.follow-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+  column-gap: 20px;
+}
+.follow {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.count {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.followers,
+.following {
+  background-color: rgb(126, 126, 126);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  align-self: start;
+}
+
+.userProfilePic {
+  position: relative;
+  z-index: 100;
+  margin-top: 300px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(143, 138, 138);
+}
+
+.pageContent {
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+@media (max-width: 1000px) {
+  .blank {
+    left: 0;
+    right: 0;
+    height: 300px;
+  }
+  .userProfilePic {
+    margin-top: 250px;
+  }
+}
+@media (max-width: 1000px) {
+  .blank {
+    left: 0;
+    right: 0;
+  }
+}

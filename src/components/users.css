@@ -1,0 +1,14 @@
+.loading {
+  display: block;
+  font-size: 1rem;
+  color: #ccc;
+}
+.users {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.DisplayUsers_title {
+  color: #ccc;
+  margin-top: 30px;
+}

@@ -1,0 +1,56 @@
+.userWrapper {
+  width: 350px;
+  margin: auto;
+}
+.user {
+  width: 100%;
+  background-color: rgb(155, 155, 155);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 400ms;
+}
+.user:hover {
+  background-color: rgb(126, 126, 126);
+}
+.userImage {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: contain;
+  grid-row: 1/3;
+}
+.profile,
+.userName {
+  text-align: left;
+  display: block;
+}
+.profile {
+  align-self: start;
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+.userName {
+  align-self: end;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .userWrapper {
+    width: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .userWrapper {
+    width: 230px;
+  }
+}
