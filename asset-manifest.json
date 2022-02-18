@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/simple-fetch-users-app/static/css/main.5af99e7f.chunk.css",
+    "main.js": "/simple-fetch-users-app/static/js/main.a90143ba.chunk.js",
+    "main.js.map": "/simple-fetch-users-app/static/js/main.a90143ba.chunk.js.map",
+    "runtime-main.js": "/simple-fetch-users-app/static/js/runtime-main.589953bd.js",
+    "runtime-main.js.map": "/simple-fetch-users-app/static/js/runtime-main.589953bd.js.map",
+    "static/js/2.317dd3ea.chunk.js": "/simple-fetch-users-app/static/js/2.317dd3ea.chunk.js",
+    "static/js/2.317dd3ea.chunk.js.map": "/simple-fetch-users-app/static/js/2.317dd3ea.chunk.js.map",
+    "index.html": "/simple-fetch-users-app/index.html",
+    "static/css/main.5af99e7f.chunk.css.map": "/simple-fetch-users-app/static/css/main.5af99e7f.chunk.css.map",
+    "static/js/2.317dd3ea.chunk.js.LICENSE.txt": "/simple-fetch-users-app/static/js/2.317dd3ea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.589953bd.js",
+    "static/js/2.317dd3ea.chunk.js",
+    "static/css/main.5af99e7f.chunk.css",
+    "static/js/main.a90143ba.chunk.js"
+  ]
+}
