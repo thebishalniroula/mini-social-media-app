@@ -11,7 +11,7 @@ const Nav = ({ setInput }) => {
   };
   return (
     <div className="Navbar">
-      <Link to="/" className="logo">
+      <Link to="/simple-fetch-users-app" className="logo">
         <h3 className="logo">GithubUsers</h3>
       </Link>
       <div className="search">

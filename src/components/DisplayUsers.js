@@ -12,7 +12,6 @@ const DisplayUsers = ({ url, title, input }) => {
     }
   };
   const filteredUsers = filterUsers(input);
-  console.log(filteredUsers);
   return (
     <div className="users">
       <h3 className="DisplayUsers_title">{title}</h3>
