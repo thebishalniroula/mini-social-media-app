@@ -6,16 +6,16 @@ import Nav from "./components/Nav";
 import Users from "./components/Users";
 import { useState } from "react";
 export default function App() {
-  const [input, setInput] = useState();
+  const [input, setInput] = useState(null);
   return (
     <Router>
       <Nav setInput={setInput} />
       <div className="app">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/simple-fetch-users-app">
             <Users input={input} />
           </Route>
-          <Route path="/:id">
+          <Route path="/simple-fetch-users-app/:id">
             <UserProfile />
           </Route>
         </Switch>
