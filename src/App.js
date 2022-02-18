@@ -4,14 +4,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 
 import Users from "./components/Users";
+import { useState } from "react";
 export default function App() {
+  const [input, setInput] = useState();
   return (
     <Router>
-      <Nav />
+      <Nav setInput={setInput} />
       <div className="app">
         <Switch>
           <Route exact path="/">
-            <Users />
+            <Users input={input} />
           </Route>
           <Route path="/:id">
             <UserProfile />
