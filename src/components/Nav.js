@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
-import { useRef } from "react";
+import { useState } from "react";
 
 import "./nav.css";
-const Nav = () => {
-  const inputRef = useRef(null);
+const Nav = ({ setInput }) => {
+  const [value, setValue] = useState("");
+
+  const changeHandler = (e) => {
+    setValue(e.target.value);
+    setInput(e.target.value.toString());
+  };
   return (
     <div className="Navbar">
       <Link to="/" className="logo">
@@ -15,10 +20,11 @@ const Nav = () => {
           className="searchicon"
         />
         <input
-          ref={inputRef}
           type="text"
           className="navsearch"
           placeholder="Search users"
+          onChange={changeHandler}
+          value={value}
         />
       </div>
     </div>

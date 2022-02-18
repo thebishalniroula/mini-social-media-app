@@ -1,8 +1,12 @@
 import DisplayUsers from "./DisplayUsers";
 
-const Users = () => {
+const Users = ({ input }) => {
   return (
-    <DisplayUsers url="https://api.github.com/users" title="GitHub Users" />
+    <DisplayUsers
+      url="https://api.github.com/users"
+      title="GitHub Users"
+      input={input}
+    />
   );
 };
 
