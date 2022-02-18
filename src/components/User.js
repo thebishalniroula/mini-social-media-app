@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const User = (props) => {
   return (
     <div className="userWrapper">
-      <Link className="user" to={"/" + props.login}>
+      <Link className="user" to={"/simple-fetch-users-app/" + props.login}>
         <img src={props.avatar_url} className="userImage" alt={props.login} />
         <h6 className="userName">{props.login}</h6>
         <span className="profile">Profile</span>
