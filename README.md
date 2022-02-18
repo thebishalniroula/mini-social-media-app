@@ -11,11 +11,12 @@ In this app you can:-
 ### During this project, I learnt:-
 1. how to use fetch data from an API
 2. Routing in react using react-router-dom
-3. hooks like useState, useEffect, useRef, useReducer
-4. conditional styling to conditional style components depending on states
-5. props drilling
-6. Higher order array methods like map, filter, forEach etc 
-7. many other fundamental concepts of javascript,
+3. Implementing search feature
+4. hooks like useState, useEffect, useRef, useReducer
+5. conditional styling to conditional style components depending on states
+6. props drilling
+7. Higher order array methods like map, filter, forEach etc 
+8. many other fundamental concepts of javascript,
 
 #### Profile page
 ![image](https://user-images.githubusercontent.com/60183177/154632495-daf65aec-ff0d-4e59-85bd-c56e65f4eec3.png)
