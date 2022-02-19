@@ -19,7 +19,6 @@ const DisplayUsers = ({ url, title, input }) => {
       {filteredUsers
         ? filteredUsers.map((user) => <User key={user.id} {...user} />)
         : users.map((user) => <User key={user.id} {...user} />)}
-      \
     </div>
   );
 };

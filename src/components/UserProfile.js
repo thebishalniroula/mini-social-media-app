@@ -70,7 +70,7 @@ const UserProfile = () => {
           {displayFollowers && (
             <DisplayUsers
               url={userDetails.followers_url}
-              title={"Who follows " + userDetails.name.split(" ")[0] + " ?"}
+              title={"Who follows " + userDetails?.name?.split(" ")[0] + " ?"}
             />
           )}
           {displayFollowing && <DisplayFollowing />}
