@@ -12,6 +12,7 @@ html {
   width: 50vw;
   margin: auto;
   text-align: center;
+  min-height: 96vh;
 }
 
 @media (max-width: 600px) {
