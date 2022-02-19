@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/simple-fetch-users-app/static/css/main.0129f736.chunk.css",
+    "main.css": "/simple-fetch-users-app/static/css/main.991700b2.chunk.css",
     "main.js": "/simple-fetch-users-app/static/js/main.aa12ddcd.chunk.js",
     "main.js.map": "/simple-fetch-users-app/static/js/main.aa12ddcd.chunk.js.map",
     "runtime-main.js": "/simple-fetch-users-app/static/js/runtime-main.589953bd.js",
@@ -8,13 +8,13 @@
     "static/js/2.317dd3ea.chunk.js": "/simple-fetch-users-app/static/js/2.317dd3ea.chunk.js",
     "static/js/2.317dd3ea.chunk.js.map": "/simple-fetch-users-app/static/js/2.317dd3ea.chunk.js.map",
     "index.html": "/simple-fetch-users-app/index.html",
-    "static/css/main.0129f736.chunk.css.map": "/simple-fetch-users-app/static/css/main.0129f736.chunk.css.map",
+    "static/css/main.991700b2.chunk.css.map": "/simple-fetch-users-app/static/css/main.991700b2.chunk.css.map",
     "static/js/2.317dd3ea.chunk.js.LICENSE.txt": "/simple-fetch-users-app/static/js/2.317dd3ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.589953bd.js",
     "static/js/2.317dd3ea.chunk.js",
-    "static/css/main.0129f736.chunk.css",
+    "static/css/main.991700b2.chunk.css",
     "static/js/main.aa12ddcd.chunk.js"
   ]
 }
