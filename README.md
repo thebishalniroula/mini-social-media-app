@@ -1,7 +1,8 @@
-# simple-fetch-users-app
-This is a simple app that fetches users data from an API. It is a mini project that I did for myself while learning React. 
+# mini-social-media-app
+This is one of the first project I have done using ReactJS. It is a mini project and all it does is fetches list of users(profiles) from an existing api. And shows their profile upon click.
 
 ### Live link: https://thebishalniroula.github.io/simple-fetch-users-app
+
 #### Technologies used
 * *React*
 * *CSS3* (No framework or library)
